@@ -16,7 +16,7 @@ public class SqlTool {
 		driver = "com.mysql.jdbc.Driver";
 		url = "jdbc:mysql://localhost:3306/examsystem";
 		user = "root";
-		passwd = "mysql.0017";
+		passwd = "mysqlpasswd";
 		conn = null;
 		try {
 			Class.forName(driver);
